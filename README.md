@@ -1,5 +1,5 @@
 # VolquetesLosHermanos
-La empresa "Volquetes Los Hermanos" nos contacta para llevar a cabo la gestion de sus volquetes, entregas y pagos.
+La empresa "Volquetes Los Hermanos" nos contacta para llevar a cabo la gestion de alquileres y cobranzas de sus volquetes.
 
 Cuando se realiza la entrega de un volquete debe quedar registrado la fecha y hora en la que se entrega, el cliente al cual se lleva
 y el medio de pago optado por el cliente. 

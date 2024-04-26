@@ -11,7 +11,7 @@
 
 ## Tema
 ### Descripción
-La empresa familiar Volquetes Los Hermanos dedicada al alquiler de volquetes.
+Negocio basado en una empresa familiar llamada "Volquetes Los Hermanos" dedicada al alquiler de volquetes.
 
 ### Modelo
 ![imagen del modelo]()

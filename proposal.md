@@ -14,7 +14,8 @@
 Negocio basado en una empresa familiar llamada "Volquetes Los Hermanos" dedicada al alquiler de volquetes.
 
 ### Modelo
-![Volquetes Los Hermanos drawio](https://github.com/caamilopereyra01/VolquetesLosHermanos/assets/165169940/d135da2a-b897-451b-b2a1-af19d1aadf8e)
+![DER volquetes V1 drawio](https://github.com/caamilopereyra01/VolquetesLosHermanos/assets/165169940/f95ad3b1-a387-4483-b798-754642ede11a)
+
 https://drive.google.com/file/d/1EupYWe6jK6qo13pOt6u4Kp9T8_wHiV3B/view?usp=sharing
 
 ## Alcance Funcional 

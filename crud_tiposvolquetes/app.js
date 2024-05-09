@@ -12,7 +12,7 @@ const idTipoVolquete=document.querySelector('#id_tipo_volquete');
 const descripcionInput=document.querySelector('#descripcion_tipo_volquete');
 const btnAgregar=document.querySelector('#btnAgregar');
 
-formulario.addEventListaner('submit', validarFormulario);
+formulario.addEventListener('submit', validarFormulario);
 
 function validarFormulario(e) {
   e.preventDefault();
@@ -39,24 +39,25 @@ function agregarVolquete(){
 
 function mostrarVolquetes(){
   const divVolquetes = document.querySelector(('.div-volquetes'));
+  divVolquetes.innerHTML='';
   listaTiposVolquete.forEach(volquete => {
       const {id, descripcion}=volquete;
 
       const parrafo = document.createElement('p');
-      parrafo.textContent='${id}-${descripcion}-';
+      parrafo.textContent=`${id}-${descripcion}-`;
       parrafo.dataset.id=id;
 
       const editarBoton=document.createElement('button');
       //editarBoton.onclick=()=> cargarVolquete(volquete);
       editarBoton.textContent='Editar';
       editarBoton.classList.add('btn','btn-editar');
-      parrafo.append(editarBoton);
+      parrafo.appendChild(editarBoton);
 
-      const elimitarBoton =document.createElement('button');
-      //eliminarBoton.onclick=()=> elimitarVolquete(id);
+      const eliminarBoton =document.createElement('button');
+      //eliminarBoton.onclick=()=> eliminarVolquete(id);
       eliminarBoton.textContent='Eliminar';
       eliminarBoton.classList.add('btn','btn-eliminar');
-      parrafo.append(eliminarBoton);
+      parrafo.appendChild(eliminarBoton);
 
       const hr=document.createElement('hr');
       

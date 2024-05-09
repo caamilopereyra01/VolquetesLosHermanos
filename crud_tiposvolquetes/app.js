@@ -54,7 +54,7 @@ function mostrarVolquetes(){
       parrafo.appendChild(editarBoton);
 
       const eliminarBoton =document.createElement('button');
-      //eliminarBoton.onclick=()=> eliminarVolquete(id);
+    
       eliminarBoton.textContent='Eliminar';
       eliminarBoton.classList.add('btn','btn-eliminar');
       parrafo.appendChild(eliminarBoton);
@@ -65,5 +65,13 @@ function mostrarVolquetes(){
       divVolquetes.appendChild(hr);
 
 
+      eliminarBoton.onclick=()=> eliminarVolquete(id);
+      function eliminarVolquete(id){
+        listaTiposVolquete = listaTiposVolquete.filter(volquete => volquete.id !== id);
+        mostrarVolquetes();
+      }
+    
   });
+
+
 }
